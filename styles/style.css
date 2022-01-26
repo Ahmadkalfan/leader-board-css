@@ -1,5 +1,37 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+body{
+   margin: 0;
+}
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+}
+.header-logo img{
+    padding-top: 20px;
+    width:40px;
+   display: flex;
+   
+}
+.menu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bar a{
+      font-weight: 700;
+      font-size: 20px;
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+}
 
 .section-title{
     color: #562EFF;
